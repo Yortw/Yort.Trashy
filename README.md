@@ -15,7 +15,7 @@ Currently;
 * Net 4.0+
 
 ## Build Status
-[![Build status](https://ci.appveyor.com/api/projects/status/88t4uo6hvxfiqbe0?svg=true)](https://ci.appveyor.com/project/Yortw/Yort.Trashy)
+[![Build status](https://ci.appveyor.com/api/projects/status/8jw3sdsikltac4yr?svg=true)](https://ci.appveyor.com/project/Yortw/yort-trashy)
 
 ## What's in the box/How do I use it?
 
