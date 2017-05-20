@@ -7,7 +7,7 @@ namespace Yort.Trashy
 	/// <summary>
 	/// Options for handling how objects are disposed.
 	/// </summary>
-	/// <seealso cref="DisposeExtensions"/>
+	/// <seealso cref="Yort.Trashy.Extensions.DisposeExtensions"/>
 	[Flags]
 	public enum DisposeOptions
 	{

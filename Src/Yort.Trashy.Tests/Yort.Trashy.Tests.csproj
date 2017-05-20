@@ -63,9 +63,6 @@
     <Compile Include="ReferenceCountedDisposableBaseTests.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Yort.Trashy.Net40\Yort.Trashy.Net40.csproj">
       <Project>{e5c499a5-4c38-4dcd-a9b9-e23df78db226}</Project>
       <Name>Yort.Trashy.Net40</Name>
