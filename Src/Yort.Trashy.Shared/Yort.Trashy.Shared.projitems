@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>de7b2b14-1832-43c3-bfd7-6634b8511f53</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Yort.Trashy</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AssemblyInfoCommon.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DisposableBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DisposableManagedOnlyBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DisposableToken.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DisposableTracker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DisposableValueToken.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DisposeAssistant.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DisposeExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DisposeOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GlobalSuppressions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IIsDisposed.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IReferenceCountedDisposable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReferenceCountedDisposableBase.cs" />
+  </ItemGroup>
+</Project>

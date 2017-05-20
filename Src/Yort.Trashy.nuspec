@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>       
+	<id>Yort.Trashy</id>
+        <version>1.0.0.0</version>
+        <title>Yort.Trashy</title>
+        <authors>Troy Willmot</authors>
+        <owners>Yortw</owners>
+        <licenseUrl>https://github.com/Yortw/Yort.Trashy/blob/master/LICENSE.md</licenseUrl>
+        <projectUrl>https://github.com/Yortw/Yort.Trashy</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/Yortw/Yort.Trashy/master/Icon.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Types, interfaces &amp; extension methods for creating or dealing with disposable resources in .Net.</description>
+        <copyright>Copyright 2017</copyright>
+        <language>en-NZ</language>
+        <tags> disposable dispose trashy</tags>
+    </metadata>
+    <files>
+        <file src="Yort.Trashy.NetStandard\bin\Release\netstandard1.0\*.dll" target="lib\netstandard1.1" />
+        <file src="Yort.Trashy.NetStandard\bin\Release\netstandard1.0\*.pdb" target="lib\netstandard1.1" />
+        <file src="Yort.Trashy.NetStandard\bin\Release\netstandard1.0\*.xml" target="lib\netstandard1.1" />
+
+        <file src="Yort.Trashy.Net40\bin\Release\*.dll" target="lib\net40" />
+        <file src="Yort.Trashy.Net40\bin\Release\*.pdb" target="lib\net40" />
+        <file src="Yort.Trashy.Net40\bin\Release\*.xml" target="lib\net40" />
+
+        <file src="Yort.Trashy.Portable\bin\Release\*.dll" target="lib\portable-net45+win8+wpa81+wp8" />
+        <file src="Yort.Trashy.Portable\bin\Release\*.pdb" target="lib\portable-net45+win8+wpa81+wp8" />
+        <file src="Yort.Trashy.Portable\bin\Release\*.xml" target="lib\portable-net45+win8+wpa81+wp8" />
+        
+        <file src="Yort.Trashy.Android\bin\Release\*.dll" target="lib\monoandroid" />
+        <file src="Yort.Trashy.Android\bin\Release\*.pdb" target="lib\monoandroid" />
+        <file src="Yort.Trashy.Android\bin\Release\*.xml" target="lib\monoandroid" />
+        
+        <file src="Yort.Trashy.iOS\bin\Release\*.dll" target="lib\Xamarin.iOS10" />
+        <file src="Yort.Trashy.iOS\bin\Release\*.pdb" target="lib\Xamarin.iOS10" />
+        <file src="Yort.Trashy.iOS\bin\Release\*.xml" target="lib\Xamarin.iOS10" />
+        
+        
+        <file src="**\*.cs" target="src" />
+    </files>
+</package>
