@@ -54,6 +54,32 @@ namespace Yort.Trashy.Tests
 		}
 
 		[TestMethod]
+		public void DisposeAll_ThrowsAggregateExceptionWhenNotSuppressed()
+		{
+			var t = new TestDisposable();
+			var t1 = new TestDisposable();
+			t1.ErrorOnDispose = true;
+			var t2 = new TestDisposable();
+			t2.ErrorOnDispose = true;
+			var t3 = new TestDisposable();
+
+			try
+			{
+				DisposeAssistant.DisposeAll(t, t1, t2, t3);
+				Assert.Fail("No aggregate exception thronw");
+			}
+			catch (AggregateException ae)
+			{
+				Assert.AreEqual(2, ae.InnerExceptions.Count);
+
+				Assert.IsTrue(t.IsDisposed);
+				Assert.IsTrue(t1.IsDisposed);
+				Assert.IsTrue(t2.IsDisposed);
+				Assert.IsTrue(t3.IsDisposed);
+			}
+		}
+
+		[TestMethod]
 		public void DisposeAll_IgnoresExceptionsWithSuppressOptionSet()
 		{
 			var t = new TestDisposable();

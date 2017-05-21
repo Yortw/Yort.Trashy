@@ -287,10 +287,25 @@ namespace Yort.Trashy
 		{
 			if (disposables == null) return;
 
+			List<Exception> exceptions = null;
 			foreach (var item in disposables)
 			{
-				DisposeExtensions.TryDispose(item, options);
+				try
+				{
+					DisposeExtensions.TryDispose(item, options);
+				}
+				catch (Exception ex) when (!(ex is OutOfMemoryException))
+				{
+					if ((options & DisposeOptions.SuppressExceptions) != DisposeOptions.SuppressExceptions)
+					{
+						exceptions = exceptions ?? new List<Exception>();
+						exceptions.Add(ex);
+					}
+				}
 			}
+
+			if (exceptions != null)
+				throw new AggregateException(exceptions);
 		}
 
 	}
