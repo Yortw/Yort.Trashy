@@ -3,7 +3,7 @@
 ## What is Yort.Trashy ?
 Yort.Trashy is .Net library for implementing the disposable pattern correctly and in a thread-safe manner, as well was working with disposable types.
 
-[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Yortw/Yort.Trashy/blob/master/LICENSE.md) 
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/Yortw/Yort.Trashy/blob/master/LICENSE) 
 
 
 ## Supported Platforms
