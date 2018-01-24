@@ -20,6 +20,7 @@
     <RepositoryUrl>https://github.com/Yortw/Yort.Trashy</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
     <Description>Types, interfaces &amp; extension methods for creating or dealing with disposable resources in .Net.</Description>
+		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
