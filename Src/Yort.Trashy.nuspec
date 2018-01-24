@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>       
 	<id>Yort.Trashy</id>
-        <version>1.0.0</version>
+        <version>1.0.2</version>
         <title>Yort.Trashy</title>
         <authors>Troy Willmot</authors>
         <owners>Yortw</owners>
@@ -11,9 +11,9 @@
         <iconUrl>https://raw.githubusercontent.com/Yortw/Yort.Trashy/master/Icon.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Types, interfaces &amp; extension methods for creating or dealing with disposable resources in .Net.</description>
-        <copyright>Copyright 2017</copyright>
+        <copyright>Copyright 2018</copyright>
         <language>en-NZ</language>
-        <tags> disposable dispose trashy</tags>
+        <tags>disposable dispose trashy</tags>
     </metadata>
     <files>
         <file src="Yort.Trashy.NetStandard\bin\Release\netstandard1.0\*.dll" target="lib\netstandard1.1" />
