@@ -9,8 +9,8 @@ using System.Resources;
 [assembly: ComVisible(false)]
 
 //Do not forget to update version # in netstandard project properties too
-[assembly: AssemblyVersion("1.0.3.0")]
-[assembly: AssemblyFileVersion("1.0.3.0")]
+[assembly: AssemblyVersion("1.0.4.0")]
+[assembly: AssemblyFileVersion("1.0.4.0")]
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
