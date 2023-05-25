@@ -10,7 +10,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Yort.Trashy</RootNamespace>
-    <AssemblyName>Yort.Trashy.Android</AssemblyName>
+    <AssemblyName>Yort.Trashy</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
@@ -25,7 +25,7 @@
     <DefineConstants>TRACE;DEBUG;SUPPORTS_STACKTRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Yort.Trashy.Android.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\Yort.Trashy.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -34,7 +34,7 @@
     <DefineConstants>TRACE;SUPPORTS_STACKTRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Yort.Trashy.Android.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Yort.Trashy.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
